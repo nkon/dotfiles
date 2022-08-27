@@ -1,0 +1,22 @@
+# Padding
+window:
+    padding:
+        x: 4
+        y: 4
+
+# Font
+font:
+    size: 13
+    normal:
+        family: 'RictyDiscord Nerd Font'
+        style: Regular
+    bold:
+        family: 'RictyDiscord Nerd Font'
+        style: Bold
+    italic:
+        family: 'RictyDiscord Nerd Font'
+        style: Oblique
+    bold_italic:
+        family: 'RictyDiscord Nerd Font'
+        style: Bold Oblique
+
