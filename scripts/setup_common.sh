@@ -19,7 +19,7 @@ if [ -f ${dotfiles_dir}/tmux.conf ]
     ln -s ${dotfiles_dir}/tmux.conf ${HOME}/.tmux.conf
 fi
 
-if [ -f $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]
-    echo "source $(brew --prefix)/sharezsh-autosuggestions/zsh-autosuggestions.szh" >> ${HOME}/.zshrc
+if [ -f ${dotfiles_dir}/vimrc ]
+    ln -s ${dotfiles_dir}/vimrc ${HOME}/.vimrc
 fi
 
