@@ -12,8 +12,6 @@ setopt hist_ignore_space
 
 ## Completion
 
-source <(procs --completion-out zsh)
-
 ## Path
 
 export PATH=$PATH:$HOME/.local/bin
