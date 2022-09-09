@@ -2,7 +2,7 @@ dotfiles_dir=${HOME}/dotfiles
 
 if [ -f ${dotfiles_dir}/zshrc ]
     mkdir -p ${HOME}/.config/zsh
-    ln -s ${dotfiles=dir}/zshrc ${HOME}/.config/zsh/zshrc
+    ln -s ${dotfiles_dir}/zshrc ${HOME}/.config/zsh/zshrc
     echo 'source ${HOME}/.config/zsh/zshrc' >> ${HOME}/.zshrc
 fi
 
@@ -17,5 +17,9 @@ fi
 
 if [ -f ${dotfiles_dir}/tmux.conf ]
     ln -s ${dotfiles_dir}/tmux.conf ${HOME}/.tmux.conf
+fi
+
+if [ -f $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]
+    echo "source $(brew --prefix)/sharezsh-autosuggestions/zsh-autosuggestions.szh" >> ${HOME}/.zshrc
 fi
 

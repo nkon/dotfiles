@@ -8,7 +8,7 @@ setopt share_history
 setopt hist_ignore_dups
 setopt hist_no_store
 setopt hist_reduce_blanks
-setopt hist_ignore_spaces
+setopt hist_ignore_space
 
 ## Completion
 
