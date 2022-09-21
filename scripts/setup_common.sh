@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -eu
+
 dotfiles_dir=${HOME}/dotfiles
 
 if [ -f ${dotfiles_dir}/zshrc ]

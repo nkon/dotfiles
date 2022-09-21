@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -eu
+
 brew install --cask visual-studio-code
 
 brew install starship
