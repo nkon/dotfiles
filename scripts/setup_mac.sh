@@ -4,6 +4,9 @@ set -eu
 
 brew install --cask visual-studio-code
 
+brew tap homebrew/cask-fonts
+brew install font-cica
+
 brew install starship
 
 brew install zsh-autosuggestions
