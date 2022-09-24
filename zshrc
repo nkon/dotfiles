@@ -1,7 +1,7 @@
 ## zsh personal preference
 
 ## History
-
+export HISTFILE=${HOME}/.local/state/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt share_history

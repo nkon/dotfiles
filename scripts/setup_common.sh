@@ -8,6 +8,9 @@ if [ -f ${dotfiles_dir}/zshrc ]; then
     mkdir -p ${HOME}/.config/zsh
     ln -sf ${dotfiles_dir}/zshrc ${HOME}/.config/zsh/zshrc
     echo 'source ${HOME}/.config/zsh/zshrc' >> ${HOME}/.zshrc
+
+    # for zsh_history
+    mkdir -p ${HOME}/.local/state
 fi
 
 if [ -f ${dotfiles_dir}/alacritty.yml ]; then
@@ -21,7 +24,8 @@ if [ -f ${dotfiles_dir}/starship.toml ]; then
 fi
 
 if [ -f ${dotfiles_dir}/tmux.conf ]; then
-    ln -sf ${dotfiles_dir}/tmux.conf ${HOME}/.tmux.conf
+    mkdir -p ${HOME}/.config/tmux
+    ln -sf ${dotfiles_dir}/tmux.conf ${HOME}/.config/tmux/tmux.conf
 fi
 
 if [ -f ${dotfiles_dir}/vimrc ]; then
@@ -29,6 +33,11 @@ if [ -f ${dotfiles_dir}/vimrc ]; then
 fi
 
 if [ -f ${dotfiles_dir}/gitconfig ]; then
-    ln -sf ${dotfiles_dir}/gitconfig ${HOME}/.gitconfig
+    mkdir -p ${HOME}/.config/git
+    ln -sf ${dotfiles_dir}/gitconfig ${HOME}/.config/git/config
+fi
+if [ -f ${dotfiles_dir}/gitignore ]; then
+    mkdir -p ${HOME}/.config/git
+    ln -sf ${dotfiles_dir}/gitignore ${HOME}/.config/git/ignore
 fi
 
