@@ -1,6 +1,6 @@
 # dotfiles
-dotfiles
 
+initialization files.
 
 
 ```
@@ -10,6 +10,8 @@ $ cd dotfiles/scripts
 
 $ bash setup_linux.sh
 
-$ bash setup_common.sh
+$ bash setup_common.sh   ### configuration done!!!
 ```
+
+See [https://nkon.github.io/Dotfiles/](https://nkon.github.io/Dotfiles/) for more details.
 
