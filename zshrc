@@ -19,4 +19,4 @@ export PATH=$PATH:$HOME/.local/bin
 ## Aliase
 
 alias ls='ls -FG '
-
+alias tree='exa -rT '
