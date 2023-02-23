@@ -19,4 +19,9 @@ export PATH=$PATH:$HOME/.local/bin
 ## Aliase
 
 alias ls='ls -FG '
-alias tree='exa -rT '
+#alias tree='exa -rT '
+export EDITOR=vim
+tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
+
+eval $(thefuck --alias)
+

@@ -2,6 +2,8 @@
 
 set -eu
 
+# brew bundle install
+
 brew install --cask visual-studio-code
 
 brew tap homebrew/cask-fonts
@@ -17,3 +19,5 @@ fi
 brew install --cask alacritty
 
 brew install tmux
+brew install qulculate-gtk
+brew install tre-command thefuck
