@@ -30,3 +30,8 @@ then
 	export TERM=xterm-256color
 fi
 
+if [[ ${TERM_PROGRAM} == "vscode" ]]
+then
+	source "$(code --locate-shell-integration-path zsh)"
+fi
+
