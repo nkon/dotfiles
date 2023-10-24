@@ -28,6 +28,8 @@ if [ -f ${dotfiles_dir}/tmux.conf ]; then
     ln -sf ${dotfiles_dir}/tmux.conf ${HOME}/.config/tmux/tmux.conf
 fi
 
+mkdir -p ${HOME}/.local/share/tmux/log
+
 if [ -f ${dotfiles_dir}/vimrc ]; then
     ln -sf ${dotfiles_dir}/vimrc ${HOME}/.vimrc
 fi
@@ -40,4 +42,5 @@ if [ -f ${dotfiles_dir}/gitignore ]; then
     mkdir -p ${HOME}/.config/git
     ln -sf ${dotfiles_dir}/gitignore ${HOME}/.config/git/ignore
 fi
+
 
