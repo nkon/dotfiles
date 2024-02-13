@@ -7,7 +7,7 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${HOME}/.zshrc
 fi
 
-sudo apt install tmux
+sudo apt install tmux fonts-powerline
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
