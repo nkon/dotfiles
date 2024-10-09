@@ -1,0 +1,31 @@
+[font]
+size = 13
+
+[font.bold]
+family = "RictyDiscord Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "RictyDiscord Nerd Font"
+style = "Bold Oblique"
+
+[font.italic]
+family = "RictyDiscord Nerd Font"
+style = "Oblique"
+
+[font.normal]
+family = "RictyDiscord Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = '\'
+key = "¥"
+
+[[keyboard.bindings]]
+chars = "¥u001c"
+key = "¥"
+mods = "Control"
+
+[window.padding]
+x = 4
+y = 4

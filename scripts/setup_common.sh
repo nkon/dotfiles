@@ -13,9 +13,9 @@ if [ -f ${dotfiles_dir}/zshrc ]; then
     mkdir -p ${HOME}/.local/state
 fi
 
-if [ -f ${dotfiles_dir}/alacritty.yml ]; then
+if [ -f ${dotfiles_dir}/alacritty.toml ]; then
     mkdir -p ${HOME}/.config/alacritty
-    ln -sf ${dotfiles_dir}/alacritty.yml ${HOME}/.config/alacritty/
+    ln -sf ${dotfiles_dir}/alacritty.toml ${HOME}/.config/alacritty/
 fi
 
 if [ -f ${dotfiles_dir}/starship.toml ]; then
