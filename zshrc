@@ -23,8 +23,6 @@ alias tree='exa -rT '
 export EDITOR=vim
 tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 
-eval $(thefuck --alias)
-
 if [[ ${TERM} == "xterm" ]]
 then
 	export TERM=xterm-256color
