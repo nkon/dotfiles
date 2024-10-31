@@ -33,3 +33,8 @@ then
 	source "$(code --locate-shell-integration-path zsh)"
 fi
 
+if [[ ${TERM} == "alacritty" ]]
+then
+	export LC_CTYPE=ja_JP.UTF-8
+fi
+

@@ -23,7 +23,7 @@ set laststatus=2
 
 syntax enable
 
-set list listchars="tab:>-,trail:-,space:\u007B"
+" set list listchars="tab:>-,trail:-,space:\u007B"
 
 set ignorecase
 
