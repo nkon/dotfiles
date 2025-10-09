@@ -20,4 +20,4 @@ brew install --cask alacritty
 
 brew install tmux
 brew install qulculate-gtk
-brew install tre-command thefuck
+brew install tre-command
