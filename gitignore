@@ -1,2 +1,16 @@
+# For security
+.env
+id_rsa
+id_ed25519
+*.pem
+
+# Temporary index files
 .DS_Store
+Thumbs.db
+
+# Back up files
 *.bak
+
+# Cache
+node_modules
+

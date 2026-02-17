@@ -2,7 +2,9 @@
 
 set -eu
 
-dotfiles_dir=${HOME}/dotfiles
+dotfiles_dir=$(dirname $(readlink -f $0))/..
+echo "dotfiles_dir=$dotfiles_dir"
+
 
 if [ -f ${dotfiles_dir}/zshrc ]; then
     mkdir -p ${HOME}/.config/zsh
